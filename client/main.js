@@ -6,7 +6,6 @@ import './main.html';
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
-  console.log('aaa');
 });
 
 Template.hello.helpers({
